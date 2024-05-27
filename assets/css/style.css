@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: BricolageGrotesque;
+  src: url("../fonts/BricolageGrotesque-ExtraBold.ttf");
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -26,7 +32,7 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "BricolageGrotesque", sans-serif;
   }
   
   /*--------------------------------------------------------------
@@ -479,7 +485,7 @@ body {
   }
   
   #hero .btn-get-started {
-    font-family: "Raleway", sans-serif;
+    font-family: "BricolageGrotesque", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 14px;
@@ -915,7 +921,7 @@ body {
   .counts .count-box p {
     padding: 0;
     margin: 0;
-    font-family: "Raleway", sans-serif;
+    font-family: "BricolageGrotesque", sans-serif;
     font-size: 14px;
   }
   
@@ -1611,7 +1617,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 0;
-    font-family: "Raleway", sans-serif;
+    font-family: "BricolageGrotesque", sans-serif;
     color: #777777;
   }
   
