@@ -223,6 +223,12 @@ body {
     background: #166ab5;
     color: #fff;
   }
+
+  @media (width: 900px) {
+    #topbar .contact-info a {
+      border: 3px solid #000;
+    }
+  }
   
   @media (max-width: 768px) {
     .appointment-btn {
