@@ -558,7 +558,7 @@ body {
   @media (max-width: 992px) {
     #hero {
       margin-bottom: 0;
-      height: 60vh;
+      height: 50vh;
     }
     #hero .container {
       padding-bottom: 63px;
@@ -571,12 +571,6 @@ body {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
-    }
-  }
-  
-  @media (max-height: 600px) {
-    #hero {
-      height: 110vh;
     }
   }
   
