@@ -555,17 +555,19 @@ body {
     }
   }
   
-  @media (max-width: 992px) {
+  @media (max-width: 900px) {
     #hero {
       margin-bottom: 0;
-      height: 50vh;
+      height: 55vh;
+      padding: 100px 0;
     }
     #hero .container {
       padding-bottom: 63px;
     }
     #hero h1 {
-      font-size: 28px;
+      font-size: 1.5rem;
       line-height: 36px;
+      width: 80%;
     }
     #hero h2 {
       font-size: 18px;
