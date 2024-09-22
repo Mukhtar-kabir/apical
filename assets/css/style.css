@@ -1091,7 +1091,8 @@ body {
   }
 
   .medicalCheckup .icon-box {
-    border: 1px solid #d5e1ed;
+    border: 2px solid #d5e1ed;
+    border-radius: 5px 0 15px 0;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
     width: 100%;
@@ -1118,6 +1119,13 @@ body {
 
 .medicalCheckup .icon-box h4 {
   font-size: 1.1rem;
+  text-align: center;
+}
+
+.medicalCheckup .icon-box li {
+  font-size: 1rem;
+  line-height: 2;
+  list-style-type: square;
 }
   
   /*--------------------------------------------------------------
