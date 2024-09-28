@@ -1563,6 +1563,9 @@ body {
   
   .gallery .gallery-item img {
     transition: all ease-in-out 0.4s;
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
   }
   
   .gallery .gallery-item:hover img {
