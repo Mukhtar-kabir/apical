@@ -1628,6 +1628,10 @@ body {
   }
 
   @media (max-width: 900px) {
+    .gallery .gallery-item img {
+      width: 100%;
+    }
+    
     .blog .blog-content {
       display: block;
     }
