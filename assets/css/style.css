@@ -952,6 +952,17 @@ body {
   .misson-vision .mision-vision_container .mission {
     margin-left: 5rem;
   }
+
+  @media (max-width: 900px) {
+    .misson-vision .mision-vision_container {
+      display: block;
+    }
+
+    .misson-vision .mision-vision_container .mission {
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  }
   
   @-webkit-keyframes pulsate-btn {
     0% {
