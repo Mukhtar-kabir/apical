@@ -931,6 +931,27 @@ body {
     animation: none;
     border-radius: 0;
   }
+
+  .misson-vision .mision-vision_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .misson-vision .mision-vision_container p {
+    line-height: 1.8;
+  }
+
+  .misson-vision .mision-vision_container h3 {
+    margin-bottom: 2rem;
+  }
+
+  .misson-vision .mision-vision_container .mission {
+    margin-left: 5rem;
+  }
   
   @-webkit-keyframes pulsate-btn {
     0% {
