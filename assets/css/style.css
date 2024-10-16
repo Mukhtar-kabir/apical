@@ -1980,6 +1980,11 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+  .branch-location {
+    display: flex;
+    flex-direction: column;
+  }
   
   /*--------------------------------------------------------------
   # Pricing
