@@ -739,32 +739,42 @@ body {
     color: #1977cc;
     background: #fff;
   }
+
+  .why-us .icon-boxes {
+    display: flex;
+  }
   
   .why-us .icon-boxes .icon-box {
-    text-align: center;
+    /* text-align: center; */
     border-radius: 10px;
     background: #fff;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    padding: 40px 30px;
-    width: 100%;
+    /* padding: 40px 30px; */
+    padding: 2rem 1rem;
   }
   
   .why-us .icon-boxes .icon-box i {
-    font-size: 40px;
+    font-size: 2rem;
     color: #1977cc;
     /* color: #db4619; */
     margin-bottom: 30px;
   }
   
   .why-us .icon-boxes .icon-box h4 {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 700;
-    margin: 0 0 30px 0;
+    /* margin: 0 0 30px 0; */
   }
   
   .why-us .icon-boxes .icon-box p {
-    font-size: 15px;
+    font-size: 0.9rem;
     color: #848484;
+  }
+
+  @media (max-width: 900px) {
+    .why-us .icon-boxes .icon-box {
+      width: 100%;
+    }
   }
   
   /*--------------------------------------------------------------
@@ -2036,6 +2046,16 @@ body {
 
   .branch-location .second-branch .digits {
     text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .branch-location {
+      display: block;
+    }
+
+    #footer .credits {
+      margin-bottom: 2rem;
+    }
   }
   
   /*--------------------------------------------------------------
