@@ -1771,12 +1771,43 @@ section {
 }
 
 .blogPost .container .container-contents .contents .content .images {
-  display: flex;
   margin-bottom: 0;
 }
 
-.blogPost .container .container-contents .contents .content .images .imagess {
-  margin-left: 8rem;
+.blogPost .container .container-contents .contents .content .images .image img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.blogPost
+  .container
+  .container-contents
+  .contents
+  .content
+  .images
+  .imagess
+  h4 {
+  text-align: center;
+}
+
+.blogPost .container .container-contents .contents .paragDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blogPost .container .container-contents .contents .paragDiv span {
+  background-color: #6666;
+  padding: 10px;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.blogPost .container .container-contents .contents .paragDiv p {
+  color: #6666;
+  margin-top: 1rem;
 }
 
 .blogPost
@@ -1822,21 +1853,14 @@ section {
   font-weight: 800;
 }
 
-.blogPost .container .container-contents .contents .content img {
-  width: 20rem;
-  height: 20rem;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
-
-.blogPost .container .container-contents .contents .content .title {
+/* .blogPost .container .container-contents .contents .content .title {
   position: absolute;
   top: 12rem;
   color: #fafafa;
   padding: 0.5rem 0.5rem;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 2px;
-}
+} */
 
 .blogPost .container .container-contents .contents .content .title h4 {
   font-size: 0.8rem;
